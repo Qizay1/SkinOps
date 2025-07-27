@@ -12,7 +12,7 @@ import Footer from './Footer';
 const SkinOpsLanding = () => {
   const [selectedGame, setSelectedGame] = useState('cs2');
   const [selectedMode, setSelectedMode] = useState('cases');
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // Simulate loading
